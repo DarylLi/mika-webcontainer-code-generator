@@ -2,11 +2,15 @@
 
 ```bash
 step 1.生成webcontainer加载的文件json格式
+
 $ yarn generate_file ${你的项目名} ${项目相对地址} ${生成json文件地址（请使用ts格式）}
+
 eg: yarn generate_file vue-template ./vue_tmp ./src/mock/outputVueJson.ts
 
 setp 2.preview page
+
 $ yarn dev
+
 ```
 
 # React + TypeScript + Vite
